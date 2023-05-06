@@ -1,6 +1,6 @@
 # TextSQL-Query-Processor
 
-TextSQL Query Processor is an asynchronous Python class designed to process both SQL and Web queries. Built for the LLM-powered emerging text-to-SQL use case as found in the . It utilizes the power of Python's asyncio library for concurrent execution of SQL and Web queries, and employs TF-IDF Vectorization and Cosine Similarity for result quality assessment.
+TextSQL Query Processor is an asynchronous Python class designed to process both SQL and Web queries. Built for the LLM-powered emerging text-to-SQL use case in [TextSQL](https://github.com/caesarHQ/textSQL). It utilizes the power of Python's asyncio library for concurrent execution of SQL and Web queries, and employs TF-IDF Vectorization and Cosine Similarity for result quality assessment.
 
 ## Features
 - **Concurrent Query Processing**: The QueryProcessor class concurrently executes SQL and Web queries for a given input text using Python's asyncio library. This allows for efficient utilization of resources and faster query results.
