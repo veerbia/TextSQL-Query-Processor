@@ -15,7 +15,7 @@ class QueryProcessor:
 
     async def process_sql_query(self, query):
         try:
-            # Placeholder for SQL query processing
+            # Placeholder for SQL query processing (symmatrical with web query)
             await asyncio.sleep(1)
             result = "SQL result for query: " + query
             return result
